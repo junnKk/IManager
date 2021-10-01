@@ -14,8 +14,19 @@
 
 input{
     width: 16%;
-    height: 25px;
+    height: 35px;
     text-indent: 1ch;
     margin: 3px 0;
     outline: none;
 }
+
+a.signup-button{
+    display: block;
+    text-decoration: none;
+    width: 18%;
+    line-height:35px;
+    background-color: cornflowerblue;
+    color:black;
+    border-radius: 5px;
+}
+

@@ -13,7 +13,7 @@
 
 input{
     width: 16%;
-    height: 25px;
+    height: 35px;
     text-indent: 1ch;
     margin: 3px 0;
     outline: none;
@@ -55,6 +55,7 @@ a.kakao-login-button{
     line-height:30px;
     background-color: #e8dd5c;
     color: black;
+    border-radius: 5px;
 }
 a.google-login-button{
     display: block;
@@ -63,5 +64,6 @@ a.google-login-button{
     line-height:30px;
     background-color: whitesmoke;
     color:black;
+    border-radius: 5px;
 }
 
