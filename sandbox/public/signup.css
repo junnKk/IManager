@@ -1,0 +1,21 @@
+.container{
+    margin :0ch;
+    padding : 0ch;
+}
+
+.signup{  
+    margin-top: 50px;
+    text-align: center;
+}
+
+.signup-contents{
+    text-align: center;
+}
+
+input{
+    width: 16%;
+    height: 25px;
+    text-indent: 1ch;
+    margin: 3px 0;
+    outline: none;
+}
