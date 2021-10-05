@@ -1252,6 +1252,29 @@ input, select, textarea {
 
 	}
 
+/* Mobile */
+
+	@media screen and (max-width: 736px) {
+
+		/* Basic */
+
+			body {
+				min-width: 320px;
+			}
+
+			h2 {
+				font-size: 1.25em;
+				letter-spacing: 0.1em;
+			}
+
+			h3 {
+				font-size: 1em;
+				letter-spacing: 0.025em;
+			}
+
+			p {
+				text-align: justify;
+			}
 
 	/* Section/Article */
 
@@ -1394,12 +1417,7 @@ input, select, textarea {
 				padding-bottom: 0;
 			}
 
-		/* CTA */
-
-			#cta {
-				background-size: 10em, 10em, auto, cover;
-				padding: 3em 1.5em;
-			}
+	
 
 		/* Footer */
 
@@ -1414,21 +1432,6 @@ input, select, textarea {
 					border: 0;
 				}
 
-		/* Nav */
-
-			#navButton .toggle:before {
-				top: 8px;
-				left: 8px;
-				width: 50px;
-				height: 34px;
-				line-height: 34px;
-			}
-
-			#navButton .toggle:after {
-				top: 8px;
-				left: 8px;
-				width: 50px;
-				height: 34px;
-			}
+	
 
 	}
