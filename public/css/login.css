@@ -1,0 +1,69 @@
+.container{
+    margin :0ch;
+    padding : 0ch;
+}
+.login{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.login-contents{
+    text-align: center;
+}
+
+input{
+    width: 16%;
+    height: 35px;
+    text-indent: 1ch;
+    margin: 3px 0;
+    outline: none;
+}
+
+.or-line{
+    display: flex;
+    flex-basis: 10%;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.35);
+    font-size:14px;
+    margin: 8px 35%;
+}
+.or-line::before{
+    content: "";
+    flex-grow: 1;
+    margin: 0px 5%;
+    background: rgba(0,0,0,0.35);
+    height: 1px;
+    font-size: 0px; 
+    line-height: 0px;
+}
+
+.or-line::after{
+    content: "";
+    flex-grow: 1;
+    margin: 0px 5%;
+    background: rgba(0,0,0,0.35);
+    height: 1px;
+    font-size: 0px; 
+    line-height: 0px;
+}
+
+a.kakao-login-button{
+    display:block;
+    text-decoration: none;
+    
+    width: 18%;
+    line-height:30px;
+    background-color: #e8dd5c;
+    color: black;
+    border-radius: 5px;
+}
+a.google-login-button{
+    display: block;
+    text-decoration: none;
+    width: 18%;
+    line-height:30px;
+    background-color: whitesmoke;
+    color:black;
+    border-radius: 5px;
+}
+
